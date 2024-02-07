@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-1{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    height: 800px;
+    width: 100%;   
+}
+.box1{
+    padding: 2rem;
+    background-color: gold;
+}
+.box2{
+    padding: 2rem;
+    background-color: green;
+}
+.box3{
+    padding: 2rem;
+    background-color: tomato;
+}
+.box4{
+    padding: 2rem;
+    background-color: darkorchid;
+}
+.box5{
+    padding: 2rem;
+    background-color: blue;
+}
